@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Topbar from './components/topbar';
 import Hello from './Hello';
 import './style.css';
 
@@ -19,6 +20,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
+        {/* <Topbar /> */}
         <Hello name={this.state.name} />
         <p>Yok Ngoding! :)</p>
       </div>
